@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
+
 @import "./settings/variables";
 
 @import "./tools/functions";
@@ -8,6 +10,6 @@
 
 @import "./objects/objects";
 
-// @import "./components/";
+@import "./components/drag-files";
 
 // @import "./trumps";
