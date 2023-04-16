@@ -1,0 +1,85 @@
+.files {
+    margin-top: 2.8rem;
+
+    display: grid;
+    gap: 1.2rem;
+
+    >.box {
+        display: flex;
+        gap: 1.2rem;
+        position: relative;
+
+        >.icon {
+            background: var(--icon-bg);
+            border-radius: 4px;
+
+            padding: 1.6rem 1.2rem;
+            align-items: center;
+            justify-content: center;
+
+            >* {
+                font-size: 2.4rem;
+                color: var(--icon-color);
+            }
+        }
+
+        >.info {
+            flex: 1;
+
+            >.filename {
+                font-size: 1.4rem;
+                font-weight: 700;
+                color: #575361;
+            }
+
+            >.filesize {
+                color: #857E95;
+                font-weight: 500;
+                font-size: 1.2rem;
+            }
+
+            >.bar {
+                display: flex;
+                align-items: center;
+                gap: .8rem;
+
+                line-height: 0;
+                margin-top: .4px;
+
+                >.progress {
+                    flex: 1;
+                    -webkit-appearance: none;
+                    appearance: none;
+                    height: 8px;
+                    border-radius: 999px;
+                    overflow: hidden;
+
+                    &::-webkit-progress-bar {
+                        background: #E3E3ED;
+                    }
+
+                    &::-webkit-progress-value {
+                        background: var(--progress-color);
+                    }
+                }
+
+                >.percent {
+                    font-size: 1.2rem;
+                    font-weight: 500;
+                    color: var(--progress-text);
+                }
+            }
+
+        }
+
+        >.action {
+            position: absolute;
+
+            top: 8px;
+            right: 8px;
+
+            color: #794FED;
+            cursor: pointer;
+        }
+    }
+}
