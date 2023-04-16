@@ -7,12 +7,29 @@
     text-align: center;
     padding: 28px 0 32px;
     position: relative;
+    transition: background .2s ease;
 
     >.file {
         all: unset;
         opacity: 0;
         inset: 0;
         position: absolute;
+    }
+
+    >.ph {
+        font-size: 4.8rem;
+        color: #7C3AED;
+    }
+
+    >.title {
+        margin-top: 1.2rem;
+        color: #7C3AED;
+        font-weight: 700;
+    }
+
+    >.text {
+        color: #746E82;
+        font-size: 1.4rem;
     }
 
 }
