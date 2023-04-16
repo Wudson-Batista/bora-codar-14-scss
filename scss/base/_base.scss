@@ -1,3 +1,18 @@
+html,
+body {
+    background: #FBFAFF;
+    min-height: 100vh;
+    font-family: "Inter";
+    line-height: 130%;
+}
+
 body {
     font-size: 1.6rem;
+}
+
+#app {
+    min-height: 100vh;
+    display: grid;
+    place-content: center;
+    
 }
