@@ -1,0 +1,18 @@
+.drag-files {
+    background: #F3F0FF;
+    border: 1px dashed #C1B2FA;
+    border-radius: 8px;
+    width: 440px;
+
+    text-align: center;
+    padding: 28px 0 32px;
+    position: relative;
+
+    >.file {
+        all: unset;
+        opacity: 0;
+        inset: 0;
+        position: absolute;
+    }
+
+}
