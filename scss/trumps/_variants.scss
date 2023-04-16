@@ -1,3 +1,26 @@
 .dragover {
     background: #EBE6FF;
 }
+
+.files {
+    >.uploading {
+        --icon-bg: #E9E3F8;
+        --icon-color: #AC96E4;
+        --progress-color: linear-gradient(90deg, rgba(58, 97, 237, 0.52) 0%, #7C3AED 100%);
+        --progress-text: #9892A6;
+    }
+
+    >.done {
+        --icon-bg: #DAF2D9;
+        --icon-color: #73B172;
+        --progress-color: #73B172;
+        --progress-text: #4E884D;
+    }
+
+    >.error {
+        --icon-bg: #F2D9D9;
+        --icon-color: #E36363;
+        --progress-color: white;
+        --progress-text: #E36363;
+    }
+}
